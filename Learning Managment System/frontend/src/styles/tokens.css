@@ -1,0 +1,21 @@
+
+:root {
+  /* Colors */
+  color-primary: #6366f1;
+  color-accent: #f59e0b;
+  color-background: #f8fafc;
+  color-text: #1e293b;
+
+  /* Fonts */
+  font-heading: Arial, sans-serif;
+  font-body: Arial, sans-serif;
+
+  /* Spacing */
+  spacing-1: 8px;
+  spacing-2: 16px;
+  spacing-3: 24px;
+  spacing-4: 32px;
+
+  /* Corner radius */
+  radius: 30px;
+}
