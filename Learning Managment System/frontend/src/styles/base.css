@@ -57,3 +57,73 @@ select {
   margin: 0 auto;
   padding: var(--spacing-2);
 }
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2);
+  background-color: var(--color-lavender);
+  border-radius: var(--radius);
+}
+
+/* Logo */
+.navbar-logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+/* Navigation container */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 8px;
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+
+/* Navigation links */
+.nav-link {
+  padding: 10px 16px;
+  color: var(--color-lavender);
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  background-color: var(--color-purple);
+  color: white;
+}
+
+/* Active page */
+.nav-link.active {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar-logo {
+    text-align: center;
+  }
+
+  .navbar-links {
+    justify-content: center;
+  }
+
+  .nav-link {
+    padding: 8px 12px;
+  }
+}

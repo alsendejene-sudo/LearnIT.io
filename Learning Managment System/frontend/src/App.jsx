@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <main>
+    <main className="container">
+      <Navbar />
+
       <h1>Welcome to Langolearning!</h1>
 
       <p>Your journey to learning a new language starts here.</p>
