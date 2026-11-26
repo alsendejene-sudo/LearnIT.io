@@ -1,6 +1,7 @@
 
 import Navbar from "./components/navbar.jsx";
 import Footer from "./components/footer.jsx";
+import Button from "./components/ui/button.jsx";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
         <p>Your journey to learning a new language starts here.</p>
 
-        <button>Start Learning</button>
+        <Button variant="primary">
+          Start Learning
+        </Button>
       </main>
 
       <div className="container">
@@ -23,4 +26,5 @@ function App() {
 }
 
 export default App;
+
 
